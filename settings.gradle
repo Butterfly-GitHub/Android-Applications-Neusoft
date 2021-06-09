@@ -1,0 +1,3 @@
+include ':the_application_test00'
+include ':app'
+rootProject.name = "My_Applications_Neusoft"
