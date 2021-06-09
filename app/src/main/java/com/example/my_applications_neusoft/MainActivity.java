@@ -32,12 +32,13 @@ public class MainActivity extends AppCompatActivity {
 //
 //                }
                 //检测（纯数字）账户名和密码
-                
+
                 if (verfication_passed(name, pwd)) {
                     goTo_LoginOK();
                 }else {
                     goTo_LoginException();
                 }
+                
             }
 
             /**
